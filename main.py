@@ -10,8 +10,8 @@ today_month = now.month
 today_day = now.day
 today = (today_month, today_day)
 
-my_email = os.environ.get("my_email")
-my_password = os.environ.get("my_password")
+my_email = os.environ.get("MY_EMAIL")
+my_password = os.environ.get("MY_PASSWORD")
 
 
 data = pd.read_csv('birthdays.csv')
